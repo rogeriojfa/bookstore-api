@@ -27,16 +27,5 @@ public class DBService {
         livroRepository.saveAll(Arrays.asList(livro1));
 
     }
-
-    public void instanciaTestBaseDeDados(){
-        Categoria cat1 = new Categoria(null, "Informática", "Livro de TI");
-        Livro livro1 = new Livro(null, "Clean Code", "Robert Martin", "Teste de Livro", cat1);
-
-        cat1.getLivros().addAll(Arrays.asList(livro1));
-
-        categoriaRepository.saveAll(Arrays.asList(cat1));
-        livroRepository.saveAll(Arrays.asList(livro1));
-
-    }
 }
 
