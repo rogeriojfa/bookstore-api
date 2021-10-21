@@ -1,6 +1,6 @@
-package repositories;
+package com.rogerio.bookstore.repositories;
 
-import domain.Livro;
+import com.rogerio.bookstore.domain.Livro;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

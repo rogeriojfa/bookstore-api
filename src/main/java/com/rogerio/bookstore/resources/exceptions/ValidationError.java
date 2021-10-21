@@ -1,4 +1,4 @@
-package resources.exceptions;
+package com.rogerio.bookstore.resources.exceptions;
 
 import java.util.ArrayList;
 import java.util.List;

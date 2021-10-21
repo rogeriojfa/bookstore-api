@@ -1,6 +1,6 @@
-package dto;
+package com.rogerio.bookstore.dto;
 
-import domain.Categoria;
+import com.rogerio.bookstore.domain.Categoria;
 import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.NotEmpty;

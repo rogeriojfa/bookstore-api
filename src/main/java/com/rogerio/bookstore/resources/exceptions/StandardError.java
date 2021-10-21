@@ -1,4 +1,4 @@
-package resources.exceptions;
+package com.rogerio.bookstore.resources.exceptions;
 
 public class StandardError {
     private Long timestamp;

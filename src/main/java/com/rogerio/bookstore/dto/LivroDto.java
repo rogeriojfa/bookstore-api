@@ -1,5 +1,5 @@
-package dto;
-import domain.Livro;
+package com.rogerio.bookstore.dto;
+import com.rogerio.bookstore.domain.Livro;
 
 import java.io.Serializable;
 

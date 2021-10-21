@@ -1,4 +1,4 @@
-package domain;
+package com.rogerio.bookstore.domain;
 
 import org.hibernate.validator.constraints.Length;
 
@@ -13,7 +13,7 @@ import java.util.Objects;
 public class Categoria implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
 
     @NotEmpty(message = "Campo NOME requerido")

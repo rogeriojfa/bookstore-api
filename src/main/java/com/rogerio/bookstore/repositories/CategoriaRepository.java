@@ -1,6 +1,6 @@
-package repositories;
+package com.rogerio.bookstore.repositories;
 
-import domain.Categoria;
+import com.rogerio.bookstore.domain.Categoria;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

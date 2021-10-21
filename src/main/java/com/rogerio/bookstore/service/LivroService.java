@@ -1,13 +1,12 @@
-package service;
+package com.rogerio.bookstore.service;
 
-import domain.Categoria;
-import domain.Livro;
-import dto.LivroDto;
+import com.rogerio.bookstore.repositories.LivroRepository;
+import com.rogerio.bookstore.service.exceptions.DataIntegrityViolationException;
+import com.rogerio.bookstore.service.exceptions.ObjectNotFoundException;
+import com.rogerio.bookstore.domain.Categoria;
+import com.rogerio.bookstore.domain.Livro;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repositories.LivroRepository;
-import service.exceptions.DataIntegrityViolationException;
-import service.exceptions.ObjectNotFoundException;
 
 import java.util.List;
 import java.util.Optional;

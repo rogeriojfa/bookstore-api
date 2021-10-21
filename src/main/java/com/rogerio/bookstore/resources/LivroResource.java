@@ -1,13 +1,11 @@
-package resources;
-import domain.Categoria;
-import domain.Livro;
-import dto.CategoriaDto;
-import dto.LivroDto;
+package com.rogerio.bookstore.resources;
+import com.rogerio.bookstore.domain.Livro;
+import com.rogerio.bookstore.dto.LivroDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-import service.LivroService;
+import com.rogerio.bookstore.service.LivroService;
 
 import javax.validation.Valid;
 import java.net.URI;
